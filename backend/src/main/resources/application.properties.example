@@ -1,7 +1,7 @@
 spring.application.name=bookstore-api
 server.port=8080
 
-# Relative to the demo/ directory when running the Maven command below.
+# Relative to the backend/ directory when running the Maven command below.
 # Provide an Access database with the project's Books, Categories, Users,
 # Orders, OrderItems, OrderStatusHistory and Payments tables.
 store.database.path=data/bookstore1.accdb
