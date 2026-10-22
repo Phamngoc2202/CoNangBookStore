@@ -1,0 +1,27 @@
+# Local data and secrets
+*.accdb
+*.laccdb
+*.mdb
+demo/src/main/resources/application.properties
+
+# Build output and machine-specific files
+demo/target/
+flutter_app/.dart_tool/
+flutter_app/build/
+flutter_app/android/local.properties
+flutter_app/android/key.properties
+.vscode/
+.idea/
+*.iml
+*.log
+
+# Earlier standalone copies; the app uses flutter_app/lib/ instead
+/api_config.dart
+/api_client.dart
+/auth_service.dart
+/book_service.dart
+
+# Local project notes
+/Mô tả cấu trúc project Bookstore API.docx
+/demo/src/main/create_project.dart
+/demo/src/main/test.java
