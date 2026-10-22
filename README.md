@@ -25,6 +25,8 @@ CoNangBookStore/
 
 Luồng chính để giải thích: **Flutter → HTTP `/api/...` → controller → service → repository → Access**. API trả JSON cho Flutter hiển thị. Giỏ hàng và token được lưu cục bộ trên thiết bị; đơn hàng và tồn kho nằm trong Access.
 
+Xem [các luồng API và ví dụ request](docs/API_FLOWS.md) để chuẩn bị phần trình bày.
+
 Các phần thường cần trình bày:
 
 - **Đăng nhập:** `frontend/lib/services/auth_service.dart` gọi `/api/auth/login`; `AuthController` và `AuthService` kiểm tra tài khoản, trả JWT. Flutter lưu JWT bằng `shared_preferences` và gửi kèm các request cần đăng nhập.
